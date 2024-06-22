@@ -1,0 +1,13 @@
+# docs: https://hub.docker.com/r/vicanso/diving
+# docs: https://github.com/vicanso/diving-rs/blob/main/README-zh.md#web
+# source code: https://github.com/vicanso/diving-rs
+version: '3'
+
+services:
+  diving:
+    image: vicanso/diving
+    restart: unless-stopped
+    ports:
+      - '7001:7001'
+    volumes:
+      - ./diving/data:/home/rust/.diving

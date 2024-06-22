@@ -181,7 +181,7 @@ AdGuard DNS will block ads, trackers, adult content, and enable Safe Search and 
 | IPv4     | 180.184.1.1 |
 | IPv4     | 180.184.2.2 |
 
-## 360 安全DNS
+## [360 安全DNS](https://sdns.360.net/dnsPublic.html)
 
 ### 电信、移动、铁通
 
@@ -200,3 +200,32 @@ AdGuard DNS will block ads, trackers, adult content, and enable Safe Search and 
 | IPv4           | 140.207.198.6                |
 | DNS-over-HTTPS | https://doh.360.cn/dns-query |
 | DNS-over-TLS   | tls://dot.360.cn             |
+
+## [UltraDNS Public](https://vercara.com/ultra-dns-public)
+
+### Unfiltered Resolution
+
+| Protocol | Address         |
+| -------- | --------------- |
+| IPv4     | 64.6.64.6       |
+| IPv4     | 64.6.65.6       |
+| IPv6     | 2620:74:1b::1:1 |
+| IPv6     | 620:74:1c::2:2  |
+
+### Threat Protection
+
+| Protocol | Address         |
+| -------- | --------------- |
+| IPv4     | 156.154.70.2    |
+| IPv4     | 156.154.71.2    |
+| IPv6     | 2610:a1:1018::2 |
+| IPv6     | 2610:a1:1019::2 |
+
+### Family Secure
+
+| Protocol | Address         |
+| -------- | --------------- |
+| IPv4     | 156.154.70.3    |
+| IPv4     | 156.154.71.3    |
+| IPv6     | 2610:a1:1018::3 |
+| IPv6     | 2610:a1:1019::3 |

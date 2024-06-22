@@ -98,3 +98,34 @@ AdGuard DNS will block ads, trackers, adult content, and enable Safe Search and 
 | IPv4     | 84.200.70.40               |
 | IPv6     | 2001:1608:10:25::1c04:b12f |
 | IPv6     | 2001:1608:10:25::9249:d69b |
+
+## [OneDNS](https://onedns.net/personal)
+
+### 纯净版
+
+| Protocol       | Address                               |
+| -------------- | ------------------------------------- |
+| IPv4           | 117.50.10.10                          |
+| IPv4           | 52.80.52.52                           |
+| IPv6           | 2400:7fc0:849e:200::8                 |
+| IPv6           | 2404:c2c0:85d8:901::8                 |
+| DNS-over-HTTPS | https://doh-pure.onedns.net/dns-query |
+| DNS-over-TLS   | tls://dot-pure.onedns.net             |
+
+### 拦截版
+
+| Protocol       | Address                          |
+| -------------- | -------------------------------- |
+| IPv4           | 52.80.66.66                      |
+| IPv4           | 117.50.22.22                     |
+| IPv6           | 2400:7fc0:849e:200::4            |
+| IPv6           | 2404:c2c0:85d8:901::4            |
+| DNS-over-HTTPS | https://doh.onedns.net/dns-query |
+| DNS-over-TLS   | tls://dot.onedns.net             |
+
+### 家庭版
+
+| Protocol | Address      |
+| -------- | ------------ |
+| IPv4     | 117.50.60.30 |
+| IPv4     | 52.80.60.30  |

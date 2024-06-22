@@ -1,0 +1,9 @@
+# docs: https://hub.docker.com/r/cloudflare/cloudflared
+# source code: https://github.com/cloudflare/cloudflared
+version: '3'
+
+services:
+  cloudflared:
+    image: cloudflare/cloudflared
+    restart: unless-stopped
+    command: tunnel --no-autoupdate run --token <token>

@@ -229,3 +229,12 @@ AdGuard DNS will block ads, trackers, adult content, and enable Safe Search and 
 | IPv4     | 156.154.71.3    |
 | IPv6     | 2610:a1:1018::3 |
 | IPv6     | 2610:a1:1019::3 |
+
+## [Alternate DNS](https://alternate-dns.com/)
+
+| Protocol | Address         |
+| -------- | --------------- |
+| IPv4     | 76.76.19.19     |
+| IPv4     | 76.223.122.150  |
+| IPv6     | 2602:fcbc::ad   |
+| IPv6     | 2602:fcbc:2::ad |

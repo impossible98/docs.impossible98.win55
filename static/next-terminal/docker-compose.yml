@@ -1,0 +1,27 @@
+# docs: https://hub.docker.com/r/dushixiang/next-terminal
+# docs: https://next-terminal.typesafe.cn/docs/install/docker-install.html
+# source code: https://github.com/dushixiang/next-terminal
+# ports: 8088
+version: '3'
+
+services:
+  guacd:
+    image: dushixiang/guacd
+    restart: unless-stopped
+    volumes:
+      - ./guacd/data:/usr/local/next-terminal/data
+
+  next-terminal:
+    image: dushixiang/next-terminal
+    environment:
+      - DB=sqlite
+      - GUACD_HOSTNAME=guacd
+      - GUACD_PORT=4822
+    ports:
+      - '8088:8088'
+    restart: unless-stopped
+    volumes:
+      - /etc/localtime:/etc/localtime
+      - ./next-terminal/data:/usr/local/next-terminal/data
+# account: admin
+# password: admin

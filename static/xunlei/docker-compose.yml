@@ -1,0 +1,18 @@
+# docs: https://hub.docker.com/r/cnk3x/xunlei
+# docs: https://github.com/cnk3x/xunlei/blob/main/README.md
+# source code: https://github.com/cnk3x/xunlei
+# ports: 2345
+version: '3'
+
+services:
+  xunlei:
+    image: cnk3x/xunlei
+    hostname: MyNAS
+    network_mode: host
+    ports:
+      - '2345:2345'
+    privileged: true
+    restart: unless-stopped
+    volumes:
+      - ./xunlei/data/xunlei:/xunlei/data
+      - </path/to/downloads>:/xunlei/downloads

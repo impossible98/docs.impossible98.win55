@@ -180,3 +180,23 @@ AdGuard DNS will block ads, trackers, adult content, and enable Safe Search and 
 | -------- | ----------- |
 | IPv4     | 180.184.1.1 |
 | IPv4     | 180.184.2.2 |
+
+## 360 安全DNS
+
+### 电信、移动、铁通
+
+| Protocol       | Address                      |
+| -------------- | ---------------------------- |
+| IPv4           | 101.226.4.6                  |
+| IPv4           | 218.30.118.6                 |
+| DNS-over-HTTPS | https://doh.360.cn/dns-query |
+| DNS-over-TLS   | tls://dot.360.cn             |
+
+### 联通
+
+| Protocol       | Address                      |
+| -------------- | ---------------------------- |
+| IPv4           | 123.125.81.6                 |
+| IPv4           | 140.207.198.6                |
+| DNS-over-HTTPS | https://doh.360.cn/dns-query |
+| DNS-over-TLS   | tls://dot.360.cn             |

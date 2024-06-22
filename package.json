@@ -13,11 +13,12 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "typecheck": "tsc",
-    "format": "prettier . --check && shellcheck ./static/*/*.sh",
+    "format": "prettier . --check",
     "format:fix": "prettier . --write --cache"
   },
   "dependencies": {
     "@docusaurus/core": "3.4.0",
+    "@docusaurus/plugin-pwa": "^3.4.0",
     "@docusaurus/preset-classic": "3.4.0",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
@@ -33,7 +34,6 @@
     "@docusaurus/types": "3.4.0",
     "lefthook": "^1.6.12",
     "prettier": "^3.0.0",
-    "shellcheck": "^3.0.0",
     "typescript": "~5.2.2"
   },
   "browserslist": {

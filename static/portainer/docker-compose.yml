@@ -1,0 +1,16 @@
+# docs: https://hub.docker.com/r/portainer/portainer-ce
+# docs: https://docs.portainer.io/start/install-ce/server/docker/linux#deployment
+# source code: https://github.com/portainer/portainer
+# ports: 9000
+version: '3'
+
+services:
+  portainer-ce:
+    image: portainer/portainer-ce
+    ports:
+      - '8000:8000'
+      - '9000:9000'
+    restart: unless-stopped
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./portainer/data:/data

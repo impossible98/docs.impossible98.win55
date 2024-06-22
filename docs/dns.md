@@ -129,3 +129,12 @@ AdGuard DNS will block ads, trackers, adult content, and enable Safe Search and 
 | -------- | ------------ |
 | IPv4     | 117.50.60.30 |
 | IPv4     | 52.80.60.30  |
+
+## [Cisco Umbrella](https://docs.umbrella.com/deployment-umbrella/docs/point-your-dns-to-cisco)
+
+| Protocol | Address         |
+| -------- | --------------- |
+| IPv4     | 208.67.222.222  |
+| IPv4     | 208.67.220.220  |
+| IPv6     | 2620:119:35::35 |
+| IPv6     | 2620:119:53::53 |

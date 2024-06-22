@@ -80,7 +80,7 @@ AdGuard DNS will block ads, trackers, adult content, and enable Safe Search and 
 | DNS-over-TLS   | tls://family.adguard-dns.com             |
 | DNS-over-QUIC  | quic://family.adguard-dns.com            |
 
-## [Cloudflare DNS](https://developers.cloudflare.com/1.1.1.1/setup/router/)
+## [Cloudflare DNS](https://developers.cloudflare.com/1.1.1.1/ip-addresses/)
 
 | Protocol       | Address                              |
 | -------------- | ------------------------------------ |
@@ -89,6 +89,28 @@ AdGuard DNS will block ads, trackers, adult content, and enable Safe Search and 
 | IPv6           | 2606:4700:4700::1111                 |
 | IPv6           | 2606:4700:4700::1001                 |
 | DNS-over-HTTPS | https://cloudflare-dns.com/dns-query |
+
+### Malware Blocking Only
+
+| Protocol       | Address                                       |
+| -------------- | --------------------------------------------- |
+| IPv4           | 1.1.1.2                                       |
+| IPv4           | 1.0.0.2                                       |
+| IPv6           | 2606:4700:4700::1112                          |
+| IPv6           | 2606:4700:4700::1002                          |
+| DNS-over-HTTPS | https://security.cloudflare-dns.com/dns-query |
+| DNS-over-TLS   | tls://security.cloudflare-dns.com             |
+
+### Malware and Adult Content Blocking Together
+
+| Protocol       | Address                                     |
+| -------------- | ------------------------------------------- |
+| IPv4           | 1.1.1.3                                     |
+| IPv4           | 1.0.0.3                                     |
+| IPv6           | 2606:4700:4700::1113                        |
+| IPv6           | 2606:4700:4700::1003                        |
+| DNS-over-HTTPS | https://family.cloudflare-dns.com/dns-query |
+| DNS-over-TLS   | tls://family.cloudflare-dns.com             |
 
 ## [DNS.WATCH](https://dns.watch/)
 
@@ -324,3 +346,47 @@ AdGuard DNS will block ads, trackers, adult content, and enable Safe Search and 
 | DNS-over-HTTPS | https://freedns.controld.com/uncensored |
 | DNS-over-TLS   | tls://uncensored.freedns.controld.com   |
 | DNS-over-QUIC  | quic://uncensored.freedns.controld.com  |
+
+## [Gcore Free Public DNS](https://gcore.com/public-dns)
+
+| Protocol | Address           |
+| -------- | ----------------- |
+| IPv4     | 95.85.95.85       |
+| IPv4     | 2.56.220.2        |
+| IPv6     | 2a03:90c0:999d::1 |
+| IPv6     | 2a03:90c0:9992::1 |
+
+## [Free DNS Filtering](https://cleanbrowsing.org/filters/)
+
+### Family Filter
+
+| Protocol       | Address                                          |
+| -------------- | ------------------------------------------------ |
+| IPv4           | 185.228.168.168                                  |
+| IPv4           | 185.228.169.168                                  |
+| IPv6           | 2a0d:2a00:1::                                    |
+| IPv6           | 2a0d:2a00:2::                                    |
+| DNS-over-HTTPS | https://doh.cleanbrowsing.org/doh/family-filter/ |
+| DNS-over-TLS   | tls://family-filter-dns.cleanbrowsing.org        |
+
+### Adult Filter
+
+| Protocol       | Address                                         |
+| -------------- | ----------------------------------------------- |
+| IPv4           | 185.228.168.10                                  |
+| IPv4           | 185.228.169.11                                  |
+| IPv6           | 2a0d:2a00:1::1                                  |
+| IPv6           | 2a0d:2a00:2::1                                  |
+| DNS-over-HTTPS | https://doh.cleanbrowsing.org/doh/adult-filter/ |
+| DNS-over-TLS   | tls://adult-filter-dns.cleanbrowsing.org        |
+
+### Security Filter
+
+| Protocol       | Address                                            |
+| -------------- | -------------------------------------------------- |
+| IPv4           | 185.228.168.9                                      |
+| IPv4           | 185.228.169.9                                      |
+| IPv6           | 2a0d:2a00:1::2                                     |
+| IPv6           | 2a0d:2a00:2::2                                     |
+| DNS-over-HTTPS | https://doh.cleanbrowsing.org/doh/security-filter/ |
+| DNS-over-TLS   | tls://security-filter-dns.cleanbrowsing.org        |

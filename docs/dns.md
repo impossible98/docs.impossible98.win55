@@ -173,3 +173,10 @@ AdGuard DNS will block ads, trackers, adult content, and enable Safe Search and 
 | IPv6           | 2620:fe::fe:11                    |
 | DNS-over-HTTPS | https://dns11.quad9.net/dns-query |
 | DNS-over-TLS   | tls://dns11.quad9.net             |
+
+## 字节跳动 TrafficRoute
+
+| Protocol | Address     |
+| -------- | ----------- |
+| IPv4     | 180.184.1.1 |
+| IPv4     | 180.184.2.2 |

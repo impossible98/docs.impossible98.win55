@@ -138,3 +138,38 @@ AdGuard DNS will block ads, trackers, adult content, and enable Safe Search and 
 | IPv4     | 208.67.220.220  |
 | IPv6     | 2620:119:35::35 |
 | IPv6     | 2620:119:53::53 |
+
+## [Quad9](https://www.quad9.net/service/service-addresses-and-features)
+
+### No Malware blocking, no DNSSEC validation
+
+| Protocol       | Address                           |
+| -------------- | --------------------------------- |
+| IPv4           | 9.9.9.10                          |
+| IPv4           | 149.112.112.10                    |
+| IPv6           | 2620:fe::10                       |
+| IPv6           | 2620:fe::fe:10                    |
+| DNS-over-HTTPS | https://dns10.quad9.net/dns-query |
+| DNS-over-TLS   | tls://dns10.quad9.net             |
+
+### Malware Blocking, DNSSEC Validation
+
+| Protocol       | Address                         |
+| -------------- | ------------------------------- |
+| IPv4           | 9.9.9.9                         |
+| IPv4           | 149.112.112.112                 |
+| IPv6           | 2620:fe::fe                     |
+| IPv6           | 2620:fe::9                      |
+| DNS-over-HTTPS | https://dns.quad9.net/dns-query |
+| DNS-over-TLS   | tls://dns.quad9.net             |
+
+### Malware blocking, DNSSEC Validation, ECS enabled
+
+| Protocol       | Address                           |
+| -------------- | --------------------------------- |
+| IPv4           | 9.9.9.11                          |
+| IPv4           | 149.112.112.11                    |
+| IPv6           | 2620:fe::11                       |
+| IPv6           | 2620:fe::fe:11                    |
+| DNS-over-HTTPS | https://dns11.quad9.net/dns-query |
+| DNS-over-TLS   | tls://dns11.quad9.net             |

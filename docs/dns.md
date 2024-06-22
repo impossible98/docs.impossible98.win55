@@ -390,3 +390,45 @@ AdGuard DNS will block ads, trackers, adult content, and enable Safe Search and 
 | IPv6           | 2a0d:2a00:2::2                                     |
 | DNS-over-HTTPS | https://doh.cleanbrowsing.org/doh/security-filter/ |
 | DNS-over-TLS   | tls://security-filter-dns.cleanbrowsing.org        |
+
+## [Comodo Secure DNS](https://www.comodo.com/secure-dns/switch/)
+
+| Protocol | Address     |
+| -------- | ----------- |
+| IPv4     | 8.26.56.26  |
+| IPv4     | 8.20.247.20 |
+
+## [CIRA Canadian Shield](https://www.cira.ca/en/how-canadian-shield-works/)
+
+### Private
+
+| Protocol       | Address                                          |
+| -------------- | ------------------------------------------------ |
+| IPv4           | 149.112.121.10                                   |
+| IPv4           | 149.112.122.10                                   |
+| IPv6           | 2620:10A:80BB::10                                |
+| IPv6           | 2620:10A:80BC::10                                |
+| DNS-over-HTTPS | https://private.canadianshield.cira.ca/dns-query |
+| DNS-over-TLS   | tls://private.canadianshield.cira.ca             |
+
+### Protected
+
+| Protocol       | Address                                            |
+| -------------- | -------------------------------------------------- |
+| IPv4           | 149.112.121.20                                     |
+| IPv4           | 149.112.122.20                                     |
+| IPv6           | 2620:10A:80BB::20                                  |
+| IPv6           | 2620:10A:80BC::20                                  |
+| DNS-over-HTTPS | https://protected.canadianshield.cira.ca/dns-query |
+| DNS-over-TLS   | tls://protected.canadianshield.cira.ca             |
+
+### Protected
+
+| Protocol       | Address                                         |
+| -------------- | ----------------------------------------------- |
+| IPv4           | 149.112.121.30                                  |
+| IPv4           | 149.112.122.30                                  |
+| IPv6           | 2620:10A:80BB::30                               |
+| IPv6           | 2620:10A:80BC::30                               |
+| DNS-over-HTTPS | https://family.canadianshield.cira.ca/dns-query |
+| DNS-over-TLS   | tls://family.canadianshield.cira.ca             |

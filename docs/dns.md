@@ -238,3 +238,89 @@ AdGuard DNS will block ads, trackers, adult content, and enable Safe Search and 
 | IPv4     | 76.223.122.150  |
 | IPv6     | 2602:fcbc::ad   |
 | IPv6     | 2602:fcbc:2::ad |
+
+## [NextDNS](https://my.nextdns.io/1babd9/setup)
+
+| Protocol       | Address                       |
+| -------------- | ----------------------------- |
+| IPv4           | 45.90.28.29                   |
+| IPv4           | 45.90.30.29                   |
+| IPv6           | 2a07:a8c0::1b:abd9            |
+| IPv6           | 2a07:a8c1::1b:abd9            |
+| DNS-over-HTTPS | https://dns.nextdns.io/1babd9 |
+| DNS-over-TLS   | tls://1babd9.dns.nextdns.io   |
+| DNS-over-QUIC  | quic://1babd9.dns.nextdns.io  |
+
+## [Control D](https://controld.com/free-dns)
+
+### Unfiltered
+
+| Protocol       | Address                         |
+| -------------- | ------------------------------- |
+| IPv4           | 76.76.2.0                       |
+| IPv4           | 76.76.10.0                      |
+| IPv6           | 2606:1a40::                     |
+| IPv6           | 2606:1a40:1::                   |
+| DNS-over-HTTPS | https://freedns.controld.com/p0 |
+| DNS-over-TLS   | tls://p0.freedns.controld.com   |
+| DNS-over-QUIC  | quic://p0.freedns.controld.com  |
+
+### Malware
+
+| Protocol       | Address                         |
+| -------------- | ------------------------------- |
+| IPv4           | 76.76.2.1                       |
+| IPv4           | 76.76.10.1                      |
+| IPv6           | 2606:1a40::1                    |
+| IPv6           | 2606:1a40:1::1                  |
+| DNS-over-HTTPS | https://freedns.controld.com/p1 |
+| DNS-over-TLS   | tls://p1.freedns.controld.com   |
+| DNS-over-QUIC  | quic://p1.freedns.controld.com  |
+
+### Ads & Tracking
+
+| Protocol       | Address                         |
+| -------------- | ------------------------------- |
+| IPv4           | 76.76.2.2                       |
+| IPv4           | 76.76.10.2                      |
+| IPv6           | 2606:1a40::2                    |
+| IPv6           | 2606:1a40:1::2                  |
+| DNS-over-HTTPS | https://freedns.controld.com/p2 |
+| DNS-over-TLS   | tls://p2.freedns.controld.com   |
+| DNS-over-QUIC  | quic://p2.freedns.controld.com  |
+
+### Social
+
+| Protocol       | Address                         |
+| -------------- | ------------------------------- |
+| IPv4           | 76.76.2.3                       |
+| IPv4           | 76.76.10.3                      |
+| IPv6           | 2606:1a40::3                    |
+| IPv6           | 2606:1a40:1::3                  |
+| DNS-over-HTTPS | https://freedns.controld.com/p3 |
+| DNS-over-TLS   | tls://p3.freedns.controld.com   |
+| DNS-over-QUIC  | quic://p3.freedns.controld.com  |
+
+### Family Friendly
+
+| Protocol       | Address                             |
+| -------------- | ----------------------------------- |
+| IPv4           | 76.76.2.4                           |
+| IPv4           | 76.76.10.4                          |
+| IPv6           | 2606:1a40::4                        |
+| IPv6           | 2606:1a40:1::4                      |
+| DNS-over-HTTPS | https://freedns.controld.com/family |
+| DNS-over-TLS   | tls://family.freedns.controld.com   |
+| DNS-over-QUIC  | quic://family.freedns.controld.com  |
+
+### Uncensored
+
+| Protocol       | Address                                 |
+| -------------- | --------------------------------------- |
+| IPv4           | 76.76.2.5                               |
+| IPv4           | 76.76.10.5                              |
+| IPv6           | 2606:1a40::5                            |
+| IPv6           | 2606:1a40:1::5                          |
+| DNS-over-HTTPS | https://freedns.controld.com/uncensored |
+| DNS-over-TLS   | tls://uncensored.freedns.controld.com   |
+| DNS-over-QUIC  | quic://uncensored.freedns.controld.com  |

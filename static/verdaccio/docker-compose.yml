@@ -1,0 +1,16 @@
+# docs: https://hub.docker.com/r/verdaccio/verdaccio
+# docs: https://verdaccio.org/zh-CN/docs/docker
+# source code: https://github.com/verdaccio/verdaccio
+# ports: 4873
+version: '3'
+
+services:
+  verdaccio:
+    image: verdaccio/verdaccio
+    ports:
+      - '4873:4873'
+    restart: unless-stopped
+    volumes:
+      - ./verdaccio/storage:/verdaccio/storage
+      - ./verdaccio/config:/verdaccio/conf
+      - ./verdaccio/plugins:/verdaccio/plugins

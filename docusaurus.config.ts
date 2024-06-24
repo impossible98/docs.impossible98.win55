@@ -1,7 +1,6 @@
 import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
-import { PwaPlugin } from '@docusaurus/plugin-pwa';
 
 const config: Config = {
   title: 'My Site',
@@ -9,7 +8,7 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://docs.impossible98.win',
+  url: 'https://docs.impossible98.site',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -43,10 +42,6 @@ const config: Config = {
         },
         theme: {
           customCss: './src/css/custom.css',
-        },
-        gtag: {
-          trackingID: 'G-0Q7MQWREMB',
-          anonymizeIP: true,
         },
       } satisfies Preset.Options,
     ],
@@ -164,6 +159,7 @@ const config: Config = {
       },
     ],
   ],
+  scripts: ['/js/clarity.js'],
 };
 
 export default config;

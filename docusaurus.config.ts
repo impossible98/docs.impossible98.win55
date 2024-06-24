@@ -121,6 +121,18 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
       additionalLanguages: ['bash'],
     },
+    algolia: {
+      // The application ID provided by Algolia
+      appId: 'IZ1M9YMS7I',
+
+      // Public API key: it is safe to commit it
+      apiKey: '81ae489a0459c1fd6e5c7344833c5859',
+
+      indexName: 'impossible98',
+
+      // Optional: see doc section below
+      contextualSearch: true,
+    },
   } satisfies Preset.ThemeConfig,
   plugins: [
     [
